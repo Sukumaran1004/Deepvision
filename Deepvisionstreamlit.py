@@ -17,7 +17,7 @@ st.title("Webcam Live Feed")
 run = st.checkbox('Run')
 FRAME_WINDOW = st.image([])
 camera = cv2.VideoCapture(0)
-loaded_model= load_model("E:\college\DeepVisionModel.h5")
+loaded_model= load_model("DeepVisionModel.h5")
 font = cv2.FONT_HERSHEY_PLAIN
 
 while run:
